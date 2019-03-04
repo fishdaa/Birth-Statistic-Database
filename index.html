@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    .grid-margin{
+      margin-top: 8vh;
+      margin-right: 10px;
+    }
+    .sidebar-border{
+      padding-right: 10px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      border-right: 2px solid;
+      border-top: 2px solid;
+      border-bottom: 2px solid;
+      border-color: #9e9e9e;
+    }
+    .searchbar{
+      margin-bottom: 30px;
+    }
+
+    .main-border{
+      padding-right: 10px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 10px;
+      border-top: 2px solid;
+      border-bottom: 2px solid;
+      border-color: #9e9e9e;
+    }
+  </style>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- FontAwesome -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <title>TEST</title>
+</head>
+<body>
+  <div class="container-fluid">
+    <nav class="navbar fixed-top navbar-expand navbar-dark bg-dark shadow">
+        <a class="navbar-brand" href="#">TEST</a>
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav mr-2">
+            <li class="nav-item">
+                <a href="#" class="btn btn-primary" role="button">Login</a>
+            </li>
+        </ul>
+        <ul class="navbar-nav mr-1">
+            <li class="nav-item">
+                <a href="#" class="btn btn-primary" role="button">Register</a>
+            </li>
+        </ul>
+      </nav>
+  </div>
+  <div class="container-fluid grid-margin">
+    <div class="row">
+      <div class="col-2 sidebar-border bg-light">
+          <div class="input-group md-form form-sm form-1 pl-0 searchbar">
+              <div class="input-group-prepend">
+                <span class="input-group-text bg-dark" id="basic-text1"><i class="fa fa-search text-white"
+                    aria-hidden="true"></i></span>
+              </div>
+              <input class="form-control my-0 py-1" type="text" placeholder="Search" aria-label="Search">
+            </div>
+          <button type="button" class="btn btn-secondary btn-block">ADD</button>
+          <button type="button" class="btn btn-secondary btn-block">UPDATE</button>
+          <button type="button" class="btn btn-secondary btn-block">DELETE</button>
+      </div>
+      <div class="col-10 main-border jumbotron">
+          <div class="jumbotron">
+              <h1 class="display-3">Lorem, ipsum dolor.</h1>
+              <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor, dolorem?</p>
+              <hr class="my-2">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem vel sunt deleniti minus nesciunt fugit.</p>
+              <p class="lead">
+                <a class="btn btn-primary btn-lg" href="#!" role="button">Submit</a>
+              </p>
+            </div>
+      </div>
+
+      <div class="container-fluid">
+        <footer class="navbar fixed-bottom navbar-expand navbar-dark bg-dark shadow">
+            <a class="text-sm-center" href="#">c 2019</a>
+
+        </footer>
+      </div>
+
+    </div>
+  </div>
+    <script src="js/sidebar.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
